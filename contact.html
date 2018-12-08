@@ -2,30 +2,47 @@
 <html>
 <head>
 	<title>Justin Tan</title>
+	<link rel="reset" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-		<header>Header</header>
-			<nav>
+		<header>	
+				<nav>
+					<h1>Justin's Portfolio</h1>
 					<ul>
 						<li><a href="index.html">Home</li></a>
-						<li><a href="aboutme.html">About Me</li></a>
 						<li><a href="contact.html">Contact</li></a>
-			</nav>
-			<section>
-        <h1>Left
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-		</h1>
+						<li><a href="gallery.html">Gallery</li></a>
+					</ul>
+				</nav>
+		</header>
+		<hr>
 
-		<h2>Aside
-			<img src="https://via.placeholder.com/300">
-		</h2>
-			</section>
+		<div class="box">
+			<header> 
+				<h2>About Me</h2>
+				<hr align="center" width="95%">
+			</header>
 
 
+			<div class="contact">
+				<form action="/action_page.php">
+				<h3><STRONG>Contact</STRONG></h3>
+				<br></br>
+				  <label for="name">Name</label>
+				  <input type="text" id="name" name="name" placeholder="Your name..">
+
+				  <label for="email">E-Mail</label>
+				  <input type="text" id="email" name="email" placeholder="Your email..">
+
+				  <label for="message">Message</label>
+				  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+				  <input type="submit" value="Submit">
+				</form>
+			  </div>
+			</div>
 		
 		<footer>Footer</footer>
 
